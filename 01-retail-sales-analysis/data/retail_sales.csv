@@ -1,0 +1,41 @@
+order_date,city,category,product,unit_price_aud,unit_cost_aud,quantity_sold,revenue_aud,cost_aud,profit_aud
+2026-01-03,Melbourne,Electronics,Wireless Mouse,25,18,2,50,36,14
+2026-01-04,Werribee,Groceries,Coffee,12,8,5,60,40,20
+2026-01-05,Melbourne,Home,Storage Box,15,9,3,45,27,18
+2026-01-07,Geelong,Electronics,USB-C Cable,18,7,4,72,28,44
+2026-01-08,Werribee,Groceries,Tea,9,5,8,72,40,32
+2026-01-10,Melbourne,Clothing,T-Shirt,22,10,3,66,30,36
+2026-01-12,Geelong,Home,Desk Lamp,35,20,2,70,40,30
+2026-01-14,Werribee,Electronics,Phone Stand,14,6,6,84,36,48
+2026-01-16,Melbourne,Groceries,Olive Oil,16,11,4,64,44,20
+2026-01-18,Geelong,Clothing,Hoodie,48,25,2,96,50,46
+2026-01-20,Werribee,Home,Laundry Basket,20,12,3,60,36,24
+2026-01-22,Melbourne,Electronics,Keyboard,45,28,2,90,56,34
+2026-01-24,Geelong,Groceries,Pasta,4,2,10,40,20,20
+2026-01-26,Werribee,Clothing,Socks Pack,10,4,7,70,28,42
+2026-01-28,Melbourne,Home,Water Bottle,18,8,4,72,32,40
+2026-02-02,Geelong,Electronics,Wireless Mouse,25,18,3,75,54,21
+2026-02-04,Werribee,Groceries,Coffee,12,8,7,84,56,28
+2026-02-06,Melbourne,Home,Storage Box,15,9,5,75,45,30
+2026-02-08,Geelong,Electronics,USB-C Cable,18,7,5,90,35,55
+2026-02-10,Werribee,Groceries,Tea,9,5,6,54,30,24
+2026-02-12,Melbourne,Clothing,T-Shirt,22,10,4,88,40,48
+2026-02-14,Geelong,Home,Desk Lamp,35,20,3,105,60,45
+2026-02-16,Werribee,Electronics,Phone Stand,14,6,8,112,48,64
+2026-02-18,Melbourne,Groceries,Olive Oil,16,11,3,48,33,15
+2026-02-20,Geelong,Clothing,Hoodie,48,25,3,144,75,69
+2026-02-22,Werribee,Home,Laundry Basket,20,12,4,80,48,32
+2026-02-24,Melbourne,Electronics,Keyboard,45,28,3,135,84,51
+2026-02-26,Geelong,Groceries,Pasta,4,2,12,48,24,24
+2026-02-28,Werribee,Clothing,Socks Pack,10,4,8,80,32,48
+2026-03-02,Melbourne,Home,Water Bottle,18,8,5,90,40,50
+2026-03-04,Geelong,Electronics,Wireless Mouse,25,18,4,100,72,28
+2026-03-06,Werribee,Groceries,Coffee,12,8,6,72,48,24
+2026-03-08,Melbourne,Home,Storage Box,15,9,4,60,36,24
+2026-03-10,Geelong,Electronics,USB-C Cable,18,7,7,126,49,77
+2026-03-12,Werribee,Groceries,Tea,9,5,9,81,45,36
+2026-03-14,Melbourne,Clothing,T-Shirt,22,10,5,110,50,60
+2026-03-16,Geelong,Home,Desk Lamp,35,20,4,140,80,60
+2026-03-18,Werribee,Electronics,Phone Stand,14,6,7,98,42,56
+2026-03-20,Melbourne,Groceries,Olive Oil,16,11,5,80,55,25
+2026-03-22,Geelong,Clothing,Hoodie,48,25,4,192,100,92
