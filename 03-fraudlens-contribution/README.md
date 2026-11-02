@@ -1,12 +1,16 @@
-# FraudLens — Contribution Summary (Group Project)
+# FraudLens — Credit Card Fraud Detection (Group Project)
 
-> **Group work, not sole work.** FraudLens was built by a student group and its full repository already exists elsewhere. This folder contains a contribution summary only — the full group code is deliberately not re-uploaded here as sole work without group agreement.
+FraudLens was my group project at Charles Darwin University, in the Master of Data Science, under Theme 3: Anomaly Detection and Intelligent Monitoring. Our goal was to detect potentially fraudulent credit card transactions, and to give fraud analysts risk-focused outputs to investigate, not to replace human judgment.
 
-## My contributions
-- Documentation
-- Pipeline consistency
-- Person 1 presentation
-- Redshift lab
+## What the project is about
+We worked with the Sparkov credit card transaction dataset: 1,852,394 transactions, with 9,651 confirmed fraud cases, about 0.521% fraud. We used a chronological train-validation-test split, so we tested on later transactions, as in a real deployment. In our group report, we compared Logistic Regression, Histogram Gradient Boosting, Isolation Forest, and a Hybrid model.
 
-## Why only a summary
-The complete FraudLens codebase belongs to the group. Republishing it here as individual work would misrepresent authorship, so only my contributions are summarized.
+## My contribution
+- I worked on project documentation, updating pipelines, and keeping the group report consistent.
+- I revised the project architecture and report sections to match our implementation, the Sparkov dataset, chronological splitting, and our updated models.
+- I identified legacy information from earlier project versions and aligned the dataset, workflow, architecture, and model descriptions.
+- For Assessment 3, I presented the Person 1 segment: Introduction, Project Overview, and Project Objectives.
+- I also completed cloud data lab work with Amazon Redshift, on storing and analysing data, scoring 30/30. I created a Redshift cluster, set up IAM permissions and security groups, created tables, uploaded data to S3, and ran SQL queries. That work supports the data-storage side of FraudLens.
+
+## Why there is no code copy here
+This is group work, and the group repository already exists. I am sharing only my own contribution here, so I don't present the group's code as my sole work. If you want to see the full group implementation, please ask me and I can point you to the group repository with the group's agreement.
