@@ -1,10 +1,10 @@
-# PRT661 — Assessment 1 Proposal (Design Document)
+# Credit Card Fraud Detection — Project Proposal and Design
 
-> **Proposal only — not a built system.** This folder summarizes a proposal and design document prepared for Assessment 1. It describes a proposed design, not an implemented or deployed system.
+This was my Assessment 1 proposal and design document, which led into the FraudLens group project. I share it here as a proposal, not as a built system.
 
-## Scope
-- Proposal and design document for Assessment 1.
-- No built system is claimed or presented here.
+## My proposal in brief
+I proposed a machine learning system to flag abnormal transaction behaviour, with an interactive dashboard for transaction trends and fraud indicators, to support faster decisions in banks, fintech, and payment systems.
 
-## Note
-Only the summary is published here. The original proposal document is held separately and is not uploaded.
+My objectives were to build the detection system, improve accuracy and reduce false positives, build the monitoring dashboard, and show the full pipeline from data collection to visualisation.
+
+I chose Theme 3, Anomaly Detection and Intelligent Monitoring, because fraud is a rare event hidden in a large volume of normal transactions. My proposed pipeline was: public financial datasets, structured storage, preprocessing and transformation, model development and evaluation, and interactive visualisation and monitoring.
