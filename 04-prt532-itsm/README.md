@@ -1,11 +1,12 @@
-# PRT532 — ITSM Group Report Summary (Group Project)
+# IT Service Management — Continual Improvement through ITIL 4 (Group Project)
 
-> **Group work, not sole work.** This was a group report on the Amazon HR Portal and ITIL 4. The full PDF is not republished here — this folder contains a summary of my contributions only. The full PDF should only be republished personally with group agreement.
+This was a group assignment on continual improvement through ITIL 4 practices, looking at the Amazon HR Portal. We submitted it on 19 October 2025.
 
-## My sections
-- Introduction
-- Executive Summary
-- ITSM Review
+## What I worked on
+My sections were the Introduction, Executive Summary, and ITSM Review. The other sections were written by my group members, so I present this as group work, not as my sole work.
 
-## About this summary
-This folder summarizes my contributions to the group report. The complete report remains the group's shared work.
+## What the report covers
+We reviewed how the HR Portal is managed and supported, and we applied the ITIL 4 Service Value System to propose continual improvement, covering Incident Management, Knowledge Management, Change Enablement, Problem Management, Service Desk, Service Level Management, Information Security, and Continual Improvement.
+
+## A note on framing
+I present this as a university case analysis, not as work done inside Amazon.
