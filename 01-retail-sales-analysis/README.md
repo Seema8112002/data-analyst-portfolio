@@ -1,11 +1,11 @@
-# Retail Sales Analysis — Individual Portfolio Project
+# Retail Sales Analysis — My Individual Portfolio Project
 
-A beginner Data Analyst portfolio project using a fictional, synthetic retail dataset, January to March 2026, 40 records.
+I built this project to practise the full data analyst workflow: cleaning and checking data, summarising it in Excel, SQL, and Python, and writing findings I can explain in an interview.
 
-## What this project shows
-Data cleaning and checking, Excel Pivot-style summaries, SQL analysis, Python (pandas) analysis, charts, and written business interpretation — with revenue and profit kept separate, not just revenue alone.
+I used a fictional, synthetic retail dataset from January to March 2026, with 40 records. These are practice results, not real business performance.
 
-## Headline results (verified from the CSV)
+## What I found
+I verified these numbers myself from the CSV:
 - Total revenue: AUD 3,378
 - Total cost: AUD 1,824
 - Total profit: AUD 1,554
@@ -16,16 +16,15 @@ Data cleaning and checking, Excel Pivot-style summaries, SQL analysis, Python (p
 - Top revenue city: Geelong (AUD 1,298)
 - Peak month: February 2026 (AUD 1,218)
 
-Full findings, recommendations, and limitations are in `insights/analysis_notes.md` and in `Retail_Sales_Analysis_Report.docx`.
+I wrote the full findings, recommendations, and limitations in `insights/analysis_notes.md` and in `Retail_Sales_Analysis_Report.docx`.
 
-## Files
-- `data/retail_sales.csv` — synthetic dataset
-- `sql/analysis_queries.sql` — 9 analysis queries
-- `python/analyze_sales.py` — pandas analysis, saves category and monthly summaries
-- `retail_sales_analysis.xlsx` — Excel workbook with Data, By Category, By City, Monthly, and By Product sheets, plus charts
-- `charts/` — revenue/profit by category, by city, and monthly trend
-- `outputs/` — category, city, product, and monthly summary CSVs
-- `Retail_Sales_Analysis_Report.docx` — final report
+One finding I would highlight in an interview: revenue rank and margin rank are different. Electronics earns the most revenue, but Clothing earns the most profit per dollar of sales. I also found that the highest-volume products and cities are not always the highest-revenue ones, which is why I report units and revenue separately.
 
-## Important note
-This is a learning project with synthetic data. Do not present these results as real business performance. In an interview, be ready to explain the questions, the calculations, and why revenue rank and margin rank differ.
+## Files in this folder
+- `data/retail_sales.csv` — the synthetic dataset I worked with
+- `sql/analysis_queries.sql` — my 9 analysis queries
+- `python/analyze_sales.py` — my pandas analysis
+- `retail_sales_analysis.xlsx` — my Excel workbook, with Data, By Category, By City, Monthly, and By Product sheets, plus charts
+- `charts/` — my charts for category, city, and monthly trends
+- `outputs/` — my category, city, product, and monthly summary tables
+- `Retail_Sales_Analysis_Report.docx` — my final report
