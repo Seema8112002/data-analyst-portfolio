@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Retail Sales Dashboard, Jan to Mar 2026</title>
+<style>body{font-family:Arial,sans-serif;margin:24px;color:#222}button{margin:4px;padding:8px 12px;cursor:pointer}table{border-collapse:collapse;margin-top:16px}td,th{border:1px solid #ccc;padding:8px;text-align:left}.kpi{display:inline-block;border:1px solid #ddd;padding:12px 18px;margin:6px}.bar{height:18px;background:#1f3a5f;margin:4px 0}</style></head>
+<body>
+<h1>Retail Sales Dashboard, January to March 2026</h1>
+<p>Interactive dashboard for my individual portfolio project. Synthetic, practice data, not real business performance. Click a category to filter the product table.</p>
+<div><span class="kpi"><b>Revenue</b><br>AUD 3,378</span><span class="kpi"><b>Profit</b><br>AUD 1,554</span><span class="kpi"><b>Units</b><br>199</span><span class="kpi"><b>Margin</b><br>46.0%</span></div>
+<h2>Revenue by category</h2>
+<div id="cat"></div>
+<p><button onclick="filterCat('All')">All</button> <button onclick="filterCat('Electronics')">Electronics</button> <button onclick="filterCat('Clothing')">Clothing</button> <button onclick="filterCat('Home')">Home</button> <button onclick="filterCat('Groceries')">Groceries</button></p>
+<h2>Products</h2>
+<table id="prod"><thead><tr><th>Product</th><th>Category</th><th>Revenue (AUD)</th><th>Profit (AUD)</th><th>Units</th><th>Margin</th></tr></thead><tbody></tbody></table>
+<h2>Monthly trend</h2>
+<p>January: AUD 1,011 revenue, AUD 468 profit. February: AUD 1,218 revenue, AUD 554 profit. March: AUD 1,149 revenue, AUD 532 profit.</p>
+<script>
+const cats=[["Electronics",1032,492],["Clothing",846,441],["Home",797,353],["Groceries",703,268]];
+const prods=[["Hoodie","Clothing",432,207,9,"47.9%"],["Desk Lamp","Home",315,135,9,"42.9%"],["Phone Stand","Electronics",294,168,21,"57.1%"],["USB-C Cable","Electronics",288,176,16,"61.1%"],["T-Shirt","Clothing",264,144,12,"54.5%"],["Wireless Mouse","Electronics",225,63,9,"28.0%"],["Keyboard","Electronics",225,85,5,"37.8%"],["Coffee","Groceries",216,72,18,"33.3%"],["Tea","Groceries",207,92,23,"44.4%"],["Olive Oil","Groceries",192,60,12,"31.3%"],["Storage Box","Home",180,72,12,"40.0%"],["Water Bottle","Home",162,90,9,"55.6%"],["Socks Pack","Clothing",150,90,15,"60.0%"],["Laundry Basket","Home",140,56,7,"40.0%"],["Pasta","Groceries",88,44,22,"50.0%"]];
+document.getElementById('cat').innerHTML=cats.map(c=>c[0]+': AUD '+c[1]+' revenue, AUD '+c[2]+' profit<br><div class="bar" style="width:'+(c[1]/1032*100)+'%"></div>').join('');
+function filterCat(cat){const rows=prods.filter(p=>cat==='All'||p[1]===cat);document.querySelector('#prod tbody').innerHTML=rows.map(p=>'<tr><td>'+p.join('</td><td>')+'</td></tr>').join('');}
+filterCat('All');
+</script>
+</body></html>
