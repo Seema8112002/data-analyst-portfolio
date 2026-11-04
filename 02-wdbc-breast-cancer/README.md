@@ -23,3 +23,8 @@ In my Random Forest model, perimeter_worst, concave_points_worst, concave_points
 
 ## A note on framing
 I present this as a classification exercise on public data, not as a medical diagnostic tool.
+
+## Screenshots and results
+![WDBC test-set results by model](charts/model_results.png)
+
+Test set is 114 records, unseen during training. Logistic Regression is highest on F1 (0.9762) and ROC-AUC (0.9993). On 5-fold training cross-validation, Random Forest and Logistic Regression are essentially tied on F1, 0.9257 and 0.9254, so I do not over-claim from one test split alone. The full notebook is `Assessment3_WDBC__Code__1__2.ipynb`.
