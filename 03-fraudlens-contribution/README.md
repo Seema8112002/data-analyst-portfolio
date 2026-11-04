@@ -14,3 +14,6 @@ We worked with the Sparkov credit card transaction dataset: 1,852,394 transactio
 
 ## Why there is no code copy here
 This is group work, and the group repository already exists. I am sharing only my own contribution here, so I don't present the group's code as my sole work. If you want to see the full group implementation, please ask me and I can point you to the group repository with the group's agreement.
+
+## Results and evidence
+Dataset: 1,852,394 transactions, 9,651 fraud cases, about 0.521% fraud, Sparkov data, chronological train-validation-test split. Models compared in the group report: Logistic Regression, Histogram Gradient Boosting, Isolation Forest, and a Hybrid model. My own verified results: Amazon Redshift cloud lab 30/30, and Person 1 presentation segment, Introduction, Overview and Objectives. The dashboard in the group files was concept level, not a completed or deployed dashboard, so I do not describe it as finished here. No screenshot of a finished product is claimed, because the full group code and dashboard stay with the group.
