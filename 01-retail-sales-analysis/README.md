@@ -28,3 +28,17 @@ One finding I would highlight in an interview: revenue rank and margin rank are 
 - `charts/` — my charts for category, city, and monthly trends
 - `outputs/` — my category, city, product, and monthly summary tables
 - `Retail_Sales_Analysis_Report.docx` — my final report
+
+## Open these files first
+- `retail_sales_analysis.xlsx` — Excel workbook, with Data, By Category, By City, Monthly, and By Product sheets, plus charts
+- `sql/analysis_queries.sql` — 9 SQL queries for overall, category, city, product, monthly and margin analysis
+- `python/retail_sales_analysis.ipynb` — Python notebook, with data checks, totals, and category, city, monthly and product tables
+- `python/analyze_sales.py` — Python script version of the same analysis
+- `dashboard/retail_dashboard.html` — interactive dashboard, click a category to filter the product table, plus a Power BI rebuild guide in `dashboard/README.md`
+
+## Screenshots and results
+![Revenue and profit by category](charts/revenue_profit_by_category.png)
+![Revenue and profit by city](charts/revenue_profit_by_city.png)
+![Monthly trend](charts/monthly_trend.png)
+
+Key results, verified from the CSV: revenue AUD 3,378, cost AUD 1,824, profit AUD 1,554, units 199, margin 46.0%. By category, Electronics AUD 1,032 revenue, Clothing AUD 846 revenue at 52.1% margin, Home AUD 797, Groceries AUD 703. By city, Geelong AUD 1,298, Melbourne AUD 1,073, Werribee AUD 1,007. By month, January AUD 1,011, February AUD 1,218, March AUD 1,149.
